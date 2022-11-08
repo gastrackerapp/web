@@ -1,7 +1,7 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
-import logo from "./logo.svg";
 import "./App.css";
+import GasStationCard from "./components/GasStationCard"
 
 export default function Stations() {
   const search = useLocation().search;
@@ -13,10 +13,10 @@ export default function Stations() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>Stations</p>
         <p>IDMUNICIPIO: {IDMUNICIPIO}</p>
         <p>IDPRODUCTO: {IDPRODUCTO}</p>
+        <GasStationCard name={IDMUNICIPIO}/>
       </header>
     </div>
   );
