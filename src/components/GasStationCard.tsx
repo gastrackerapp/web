@@ -5,7 +5,7 @@ export default function GasStationCard(props:any) {
     return (
       <div className="vinetapadre">
       <div className="imagecenter">
-          <img src={repsol}></img>  
+          <img className="gasStationLogo" src={repsol}></img>  
       </div>
       <div className="vinetahija">
           <h1 className="marca">{props.name} </h1>

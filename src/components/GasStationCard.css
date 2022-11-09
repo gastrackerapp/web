@@ -6,22 +6,19 @@
     column-gap: 0em;
     height: fit-content;
     width: fit-content;
-    border-radius: 25%;
+    border-radius: 25px;
     border-color: #fa6400;
     border-style: solid;
-}
-
-img
-{
-    width: 100px;
-    height: 100px;
-    text-align: center;
 }
 
 .imagecenter
 {
     align-self: center;
     justify-self: center;
+    border-color: #fa6400;
+    border-style: solid;
+    border-radius: 100%;
+
 }
 
 .vinetahija
@@ -97,4 +94,12 @@ img
   background-color: #c85000;
   box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
   transform: translateY(0);
+}
+
+.gasStationLogo{
+  width: auto;
+  height: auto;
+  max-width: 10vw;
+  max-height: 18vh;
+  padding: 4px 2px;
 }
