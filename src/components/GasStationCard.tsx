@@ -1,30 +1,23 @@
 import "./GasStationCard.css";
-import repsol from "./images/REPSOL.png";
+import logo from "./images/logo.png";
 
-type GasStation = {
-    label: string;
-    latitude: number;
-    longitude: number;
-    direction: string;
-    fuelType: string;
-    fuelPrice: number;
-};
-
-export default function GasStationCard(gasStation: GasStation) {
-    const direction : string = "https://maps.google.com/maps?q="+gasStation.direction
+export default function GasStationCard(gasStation: any) {
+  gasStation = gasStation.gasStation;
+  const direction: string =
+    "https://www.google.com/maps/search/?api=1&query=" +
+    gasStation.Latitud.replace(",", ".") +
+    "%2C" +
+    gasStation.Longitud.replace(",", ".");
   return (
     <div className="vinetapadre">
       <div className="imagecenter">
-        <img className="gasStationLogo" src={repsol}></img>
+        <img className="gasStationLogo" src={logo}></img>
       </div>
       <div className="vinetahija">
-        <h1 className="marca">{gasStation.label} </h1>
-        <p className="combustible"> Diesel: 294€ </p>
-        <p className="direccion"> Direccion: blablabla numero 2</p>
-        <a
-          href={direction}
-          className="boton"
-        >
+        <h1 className="marca">{gasStation.Rótulo} </h1>
+        <p className="combustible"> Precio: {gasStation.PrecioProducto} </p>
+        <p className="direccion"> Direccion: {gasStation.Dirección}</p>
+        <a href={direction} className="boton">
           Ir
         </a>
       </div>

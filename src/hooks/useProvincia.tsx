@@ -4,31 +4,31 @@ import axios from "axios";
 
 
 export default function useProvincia(IDCCAA : string) {
-    type PROVINCIAJSON = {
+    type ProvinciaJSON = {
         IDPovincia: string;
         Provincia: string;
     };
     
-    const [PROVINCIAS, setPROVINCIAS] = useState<PROVINCIAJSON[]>([]);
+    const [Provincias, setProvincias] = useState<ProvinciaJSON[]>([]);
       useEffect(() => {
         const getProvincias = async () => {
           try {
-            const PROVINCIAURL = "https://sedeaplicaciones.minetur.gob.es/ServiciosRESTCarburantes/PreciosCarburantes/Listados/ProvinciasPorComunidad/"+IDCCAA;
-            const { data } = await axios.get(`${PROVINCIAURL}`);
-            const PROVINCIASJSON: PROVINCIAJSON[] = new Array<PROVINCIAJSON>();
-            data.map((PROVINCIA: PROVINCIAJSON) => {
-              const PROVINCIAJSON: PROVINCIAJSON = {
-                IDPovincia: PROVINCIA.IDPovincia,
-                Provincia: PROVINCIA.Provincia,
+            const ProvinciaURL = "https://sedeaplicaciones.minetur.gob.es/ServiciosRESTCarburantes/PreciosCarburantes/Listados/ProvinciasPorComunidad/"+IDCCAA;
+            const { data } = await axios.get(`${ProvinciaURL}`);
+            const ProvinciasJSON: ProvinciaJSON[] = new Array<ProvinciaJSON>();
+            data.map((Provincia: ProvinciaJSON) => {
+              const ProvinciaJSON: ProvinciaJSON = {
+                IDPovincia: Provincia.IDPovincia,
+                Provincia: Provincia.Provincia,
               };
-              PROVINCIASJSON.push(PROVINCIAJSON);
+              ProvinciasJSON.push(ProvinciaJSON);
             });
-            setPROVINCIAS(PROVINCIASJSON);
+            setProvincias(ProvinciasJSON);
           } catch (e) {
             console.error(e);
           }
         };
         getProvincias();
       }, [IDCCAA]);
-    return PROVINCIAS;
+    return Provincias;
 }

@@ -9,7 +9,7 @@ export default function useProducto() {
         NombreProducto: string;
     };
     
-    const [Productos, setProductoS] = useState<ProductoJSON[]>([]);
+    const [Productos, setProductos] = useState<ProductoJSON[]>([]);
       useEffect(() => {
         const getProductos = async () => {
           try {
@@ -23,7 +23,7 @@ export default function useProducto() {
               };
               ProductosJSON.push(ProductoJSON);
             });
-            setProductoS(ProductosJSON);
+            setProductos(ProductosJSON);
           } catch (e) {
             console.error(e);
           }

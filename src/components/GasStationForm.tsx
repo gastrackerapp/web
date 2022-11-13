@@ -118,7 +118,7 @@ export default function GasStationForm() {
           </b>
         </p>
         <select value={IDProducto} onChange={handleProductoChange}>
-        <option value={"-"}>Todos</option>;
+        <option value={"-"}>-</option>;
           {Productos.map((Producto) => {
             return <option value={Producto.IDProducto}>{Producto.NombreProducto}</option>;
           })}
@@ -131,7 +131,7 @@ export default function GasStationForm() {
           </b>
         </p>
         <select value={IDEESS} onChange={handleEESSChange}>
-        <option value={"-"}>Todos</option>;
+        <option value={"-"}>-</option>;
           <option value={"BP"}>BP</option>;
           <option value={"CEPSA"}>Cepsa</option>;
           <option value={"GALP"}>Galp</option>;
