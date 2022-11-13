@@ -1,17 +1,17 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import axios from "axios";
 
 
 
 export default function useCCAA() {
     type CCAAJSON = {
-        IDCCAA: number;
+        IDCCAA: string;
         CCAA: string;
     };
     
     const [CCAAS, setCCAAS] = useState<CCAAJSON[]>([]);
       useEffect(() => {
-        const getCourses = async () => {
+        const getCCAAS = async () => {
           try {
             const CCAAURL = "https://sedeaplicaciones.minetur.gob.es/ServiciosRESTCarburantes/PreciosCarburantes/Listados/ComunidadesAutonomas/";
             const { data } = await axios.get(`${CCAAURL}`);
@@ -28,8 +28,8 @@ export default function useCCAA() {
             console.error(e);
           }
         };
-        getCourses();
-      }, [CCAAS, setCCAAS]);
+        getCCAAS();
+      }, []);
     
     return CCAAS;
 }
