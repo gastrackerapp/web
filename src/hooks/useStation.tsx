@@ -46,5 +46,5 @@ export default function useStation(IDMunicipio : string | null, IDProducto : str
         };
         getStations();
       }, []);
-    return Stations;
+      return Stations.sort((a,b)=>{return parseFloat(a.PrecioProducto.split(',').join('.')) - parseFloat(b.PrecioProducto.split(',').join('.'))});
 }
