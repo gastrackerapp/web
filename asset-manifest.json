@@ -1,14 +1,21 @@
 {
   "files": {
-    "main.css": "/web/static/css/main.1686d590.css",
-    "main.js": "/web/static/js/main.9952edb5.js",
+    "main.css": "/web/static/css/main.4c3cac74.css",
+    "main.js": "/web/static/js/main.2b274e69.js",
+    "static/media/bp.png": "/web/static/media/bp.755680700245d438bf0e.png",
+    "static/media/cepsa.png": "/web/static/media/cepsa.068136386449e8035bee.png",
+    "static/media/galp.png": "/web/static/media/galp.dd8eb3e9898cac93b13a.png",
+    "static/media/petroil.png": "/web/static/media/petroil.a2f5a32406a6ae53b715.png",
+    "static/media/petronor.png": "/web/static/media/petronor.08f61a9f84727d93bb59.png",
+    "static/media/repsol.png": "/web/static/media/repsol.c8049bc09940b57acdbc.png",
+    "static/media/sinLogo.png": "/web/static/media/sinLogo.eb503908f668abaf1156.png",
     "static/media/logo.png": "/web/static/media/logo.7b44d9bfd07035b01437.png",
     "index.html": "/web/index.html",
-    "main.1686d590.css.map": "/web/static/css/main.1686d590.css.map",
-    "main.9952edb5.js.map": "/web/static/js/main.9952edb5.js.map"
+    "main.4c3cac74.css.map": "/web/static/css/main.4c3cac74.css.map",
+    "main.2b274e69.js.map": "/web/static/js/main.2b274e69.js.map"
   },
   "entrypoints": [
-    "static/css/main.1686d590.css",
-    "static/js/main.9952edb5.js"
+    "static/css/main.4c3cac74.css",
+    "static/js/main.2b274e69.js"
   ]
 }
