@@ -80,7 +80,7 @@
   border-radius: 4px;
   border: none;
   padding: 1vh 1.5vw;
-  height: 4vh;
+  min-height: 4vh;
   width: 40vw;
   max-width: 200px;
   font-size: small;

@@ -39,7 +39,6 @@
 }
 
 .CardFirstRow{
-  background-color: #ffffff;
   border-radius: 25px;
   height: 6.66vh;
   max-height: 6.66vh;
@@ -56,17 +55,14 @@
   font-size: large;
   font-weight: bold;
   font-style: italic;
-  background-color: #ffffff;
 }
 .GasStationFuelPrice {
   border-radius: 25px;
   height: 6.66vh;
   max-height: 6.66vh;
-  background-color: #ffffff;
 }
 
 .CardSecondRow{
-  background-color: #ffffff;
   border-radius: 25px;
   height: 6.66vh;
   max-height: 6.66vh;
@@ -77,11 +73,9 @@
 
 .GasStationAddress {
   color: #808080;
-  background-color: #ffffff;
 }
 
 .CardThirdRow{
-  background-color: #ffffff;
   border-radius: 25px;
   height: 6.66vh;
   max-height: 6.66vh;
@@ -97,8 +91,8 @@
   text-decoration: none;
   border-radius: 4px;
   border: none;
-  height: 2vh;
-  max-height: 2vh;
+  min-height: 2vh;
+  max-height: 3vh;
   width: 18vw;
   max-width:30px;
   text-align: center;
