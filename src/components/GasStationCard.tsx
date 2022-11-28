@@ -10,18 +10,22 @@ export default function GasStationCard(gasStation: any) {
     gasStation.Longitud.replace(",", ".");
   return (
     <div className="GasStationCard">
-      <div className="GasStationLogo">
-        <img className="GasStationImage" src={logo}></img>
-      </div>
+        <img className="GasStationLogo" src={logo}></img>
       <div className="GasStationInfo">
-        <p className="GasStationLabel">{gasStation.Rótulo} </p>
-        <p className="GasStationFuelPrice"> <b>Precio:</b> {gasStation.PrecioProducto} </p>
-        <p className="GasStationAddress"> <b>Direccion:</b> {gasStation.Dirección}</p>
-        <a href={direction} className="GasStationButton">
-        <b>
-            <i>IR</i>
-          </b>
-        </a>
+        <div className="CardFirstRow">
+          <p className="GasStationLabel">{gasStation.Rótulo} </p>
+          <p className="GasStationFuelPrice"> <b>Precio:</b> {gasStation.PrecioProducto} </p>
+        </div>
+        <div className="CardSecondRow">
+          <p className="GasStationAddress"> <b>Direccion:</b> {gasStation.Dirección}</p>
+        </div>
+        <div className="CardThirdRow">
+          <a href={direction} className="GasStationButton">
+            <b>
+              <i>IR</i>
+            </b>
+          </a>
+        </div>
       </div>
     </div>
   );

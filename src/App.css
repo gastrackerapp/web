@@ -70,7 +70,7 @@
 }
 
 .Stations-Title{
-  color: #f0980b;
+  color: #F06C0E;
   font-size: large;
 }
 
@@ -81,7 +81,8 @@
   border: none;
   padding: 1vh 1.5vw;
   height: 4vh;
-  width: 150px;
+  width: 40vw;
+  max-width: 200px;
   font-size: small;
 }
 
