@@ -1,0 +1,29 @@
+.Form-button {
+  background-color: #f0980b;
+  color: #ffffff;
+  border-radius: 4px;
+  border: none;
+  padding: 2vh 3vw;
+  height: 8vh;
+  width: 80vw;
+  max-height: 8vh;
+  max-width: 80vw;
+  font-size: large;
+}
+
+.Form-block {
+  background-color: white;
+}
+
+.Form-title {
+  color: #f0980b;
+  font-size: large;
+}
+
+.Form-select {
+  width: 80vw;
+  max-width: 80vw;
+  border-color: #f0980b;
+  font-size: large;
+  border-radius: 4px;
+}

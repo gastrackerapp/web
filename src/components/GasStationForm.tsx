@@ -5,7 +5,7 @@ import useCCAA from "../hooks/useCCAA";
 import useProvincia from "../hooks/useProvincia";
 import useMunicipio from "../hooks/useMunicipio";
 import useProducto from "../hooks/useProducto";
-
+import "./GasStationForm.css";
 
 export default function GasStationForm() {
     const getIDCCAAInitialState = () => {
@@ -79,7 +79,7 @@ export default function GasStationForm() {
             <i>COMUNIDAD AUTÓNOMA</i>
           </b>
         </p>
-        <select value={IDCCAA} onChange={handleCCAAChange}>
+        <select value={IDCCAA} className="Form-select" onChange={handleCCAAChange}>
           {CCAAS.map((CCAA) => {
             return <option value={CCAA.IDCCAA}>{CCAA.CCAA}</option>;
           })}
@@ -91,7 +91,7 @@ export default function GasStationForm() {
             <i>PROVINCIA</i>
           </b>
         </p>
-        <select value={IDProvincia} onChange={handleProvinciaChange}>
+        <select value={IDProvincia} className="Form-select" onChange={handleProvinciaChange}>
         <option value={"-"}>-</option>;
           {Provincias.map((Provincia) => {
             return <option value={Provincia.IDPovincia}>{Provincia.Provincia.charAt(0)+Provincia.Provincia.slice(1).toLowerCase()}</option>;
@@ -104,7 +104,7 @@ export default function GasStationForm() {
             <i>MUNICIPIO</i>
           </b>
         </p>
-        <select value={IDMunicipio} onChange={handleMunicipioChange}>
+        <select value={IDMunicipio} className="Form-select" onChange={handleMunicipioChange}>
         <option value={"-"}>-</option>;
           {Municipios.map((Municipio) => {
             return <option value={Municipio.IDMunicipio}>{Municipio.Municipio}</option>;
@@ -117,7 +117,7 @@ export default function GasStationForm() {
             <i>COMBUSTIBLE</i>
           </b>
         </p>
-        <select value={IDProducto} onChange={handleProductoChange}>
+        <select value={IDProducto} className="Form-select" onChange={handleProductoChange}>
         <option value={"-"}>-</option>;
           {Productos.map((Producto) => {
             return <option value={Producto.IDProducto}>{Producto.NombreProducto}</option>;
@@ -130,7 +130,7 @@ export default function GasStationForm() {
             <i>ESTACIÓN DE SERVICIO</i>
           </b>
         </p>
-        <select value={IDEESS} onChange={handleEESSChange}>
+        <select value={IDEESS} className="Form-select" onChange={handleEESSChange}>
         <option value={"-"}>-</option>;
           <option value={"BP"}>BP</option>;
           <option value={"CEPSA"}>Cepsa</option>;
@@ -142,7 +142,7 @@ export default function GasStationForm() {
       </div>
       <br></br>
       <div>
-        <button className="App-button" onClick={() => searchStations(IDCCAA, IDProvincia, IDMunicipio, IDProducto, IDEESS)}>
+        <button className="Form-button" onClick={() => searchStations(IDCCAA, IDProvincia, IDMunicipio, IDProducto, IDEESS)}>
           <b>
             <i>BUSCAR</i>
           </b>

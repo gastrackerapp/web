@@ -1,0 +1,410 @@
+[
+  {
+    "IDMunicipio": "1",
+    "IDProvincia": "01",
+    "IDCCAA": "16",
+    "Municipio": "Alegría-Dulantzi",
+    "Provincia": "ARABA/ÁLAVA",
+    "CCAA": "País Vasco"
+  },
+  {
+    "IDMunicipio": "2",
+    "IDProvincia": "01",
+    "IDCCAA": "16",
+    "Municipio": "Amurrio",
+    "Provincia": "ARABA/ÁLAVA",
+    "CCAA": "País Vasco"
+  },
+  {
+    "IDMunicipio": "3",
+    "IDProvincia": "01",
+    "IDCCAA": "16",
+    "Municipio": "Añana",
+    "Provincia": "ARABA/ÁLAVA",
+    "CCAA": "País Vasco"
+  },
+  {
+    "IDMunicipio": "4",
+    "IDProvincia": "01",
+    "IDCCAA": "16",
+    "Municipio": "Aramaio",
+    "Provincia": "ARABA/ÁLAVA",
+    "CCAA": "País Vasco"
+  },
+  {
+    "IDMunicipio": "5",
+    "IDProvincia": "01",
+    "IDCCAA": "16",
+    "Municipio": "Armiñón",
+    "Provincia": "ARABA/ÁLAVA",
+    "CCAA": "País Vasco"
+  },
+  {
+    "IDMunicipio": "6",
+    "IDProvincia": "01",
+    "IDCCAA": "16",
+    "Municipio": "Arraia-Maeztu",
+    "Provincia": "ARABA/ÁLAVA",
+    "CCAA": "País Vasco"
+  },
+  {
+    "IDMunicipio": "7",
+    "IDProvincia": "01",
+    "IDCCAA": "16",
+    "Municipio": "Arrazua-Ubarrundia",
+    "Provincia": "ARABA/ÁLAVA",
+    "CCAA": "País Vasco"
+  },
+  {
+    "IDMunicipio": "8",
+    "IDProvincia": "01",
+    "IDCCAA": "16",
+    "Municipio": "Artziniega",
+    "Provincia": "ARABA/ÁLAVA",
+    "CCAA": "País Vasco"
+  },
+  {
+    "IDMunicipio": "9",
+    "IDProvincia": "01",
+    "IDCCAA": "16",
+    "Municipio": "Asparrena",
+    "Provincia": "ARABA/ÁLAVA",
+    "CCAA": "País Vasco"
+  },
+  {
+    "IDMunicipio": "10",
+    "IDProvincia": "01",
+    "IDCCAA": "16",
+    "Municipio": "Ayala/Aiara",
+    "Provincia": "ARABA/ÁLAVA",
+    "CCAA": "País Vasco"
+  },
+  {
+    "IDMunicipio": "11",
+    "IDProvincia": "01",
+    "IDCCAA": "16",
+    "Municipio": "Baños de Ebro/Mañueta",
+    "Provincia": "ARABA/ÁLAVA",
+    "CCAA": "País Vasco"
+  },
+  {
+    "IDMunicipio": "12",
+    "IDProvincia": "01",
+    "IDCCAA": "16",
+    "Municipio": "Barrundia",
+    "Provincia": "ARABA/ÁLAVA",
+    "CCAA": "País Vasco"
+  },
+  {
+    "IDMunicipio": "13",
+    "IDProvincia": "01",
+    "IDCCAA": "16",
+    "Municipio": "Berantevilla",
+    "Provincia": "ARABA/ÁLAVA",
+    "CCAA": "País Vasco"
+  },
+  {
+    "IDMunicipio": "14",
+    "IDProvincia": "01",
+    "IDCCAA": "16",
+    "Municipio": "Bernedo",
+    "Provincia": "ARABA/ÁLAVA",
+    "CCAA": "País Vasco"
+  },
+  {
+    "IDMunicipio": "15",
+    "IDProvincia": "01",
+    "IDCCAA": "16",
+    "Municipio": "Campezo/Kanpezu",
+    "Provincia": "ARABA/ÁLAVA",
+    "CCAA": "País Vasco"
+  },
+  {
+    "IDMunicipio": "16",
+    "IDProvincia": "01",
+    "IDCCAA": "16",
+    "Municipio": "Elburgo/Burgelu",
+    "Provincia": "ARABA/ÁLAVA",
+    "CCAA": "País Vasco"
+  },
+  {
+    "IDMunicipio": "17",
+    "IDProvincia": "01",
+    "IDCCAA": "16",
+    "Municipio": "Elciego",
+    "Provincia": "ARABA/ÁLAVA",
+    "CCAA": "País Vasco"
+  },
+  {
+    "IDMunicipio": "18",
+    "IDProvincia": "01",
+    "IDCCAA": "16",
+    "Municipio": "Elvillar/Bilar",
+    "Provincia": "ARABA/ÁLAVA",
+    "CCAA": "País Vasco"
+  },
+  {
+    "IDMunicipio": "19",
+    "IDProvincia": "01",
+    "IDCCAA": "16",
+    "Municipio": "Harana/Valle de Arana",
+    "Provincia": "ARABA/ÁLAVA",
+    "CCAA": "País Vasco"
+  },
+  {
+    "IDMunicipio": "20",
+    "IDProvincia": "01",
+    "IDCCAA": "16",
+    "Municipio": "Iruña Oka/Iruña de Oca",
+    "Provincia": "ARABA/ÁLAVA",
+    "CCAA": "País Vasco"
+  },
+  {
+    "IDMunicipio": "21",
+    "IDProvincia": "01",
+    "IDCCAA": "16",
+    "Municipio": "Iruraiz-Gauna",
+    "Provincia": "ARABA/ÁLAVA",
+    "CCAA": "País Vasco"
+  },
+  {
+    "IDMunicipio": "22",
+    "IDProvincia": "01",
+    "IDCCAA": "16",
+    "Municipio": "Kripan",
+    "Provincia": "ARABA/ÁLAVA",
+    "CCAA": "País Vasco"
+  },
+  {
+    "IDMunicipio": "23",
+    "IDProvincia": "01",
+    "IDCCAA": "16",
+    "Municipio": "Kuartango",
+    "Provincia": "ARABA/ÁLAVA",
+    "CCAA": "País Vasco"
+  },
+  {
+    "IDMunicipio": "24",
+    "IDProvincia": "01",
+    "IDCCAA": "16",
+    "Municipio": "Labastida",
+    "Provincia": "ARABA/ÁLAVA",
+    "CCAA": "País Vasco"
+  },
+  {
+    "IDMunicipio": "25",
+    "IDProvincia": "01",
+    "IDCCAA": "16",
+    "Municipio": "Lagrán",
+    "Provincia": "ARABA/ÁLAVA",
+    "CCAA": "País Vasco"
+  },
+  {
+    "IDMunicipio": "26",
+    "IDProvincia": "01",
+    "IDCCAA": "16",
+    "Municipio": "Laguardia",
+    "Provincia": "ARABA/ÁLAVA",
+    "CCAA": "País Vasco"
+  },
+  {
+    "IDMunicipio": "27",
+    "IDProvincia": "01",
+    "IDCCAA": "16",
+    "Municipio": "Lanciego/Lantziego",
+    "Provincia": "ARABA/ÁLAVA",
+    "CCAA": "País Vasco"
+  },
+  {
+    "IDMunicipio": "28",
+    "IDProvincia": "01",
+    "IDCCAA": "16",
+    "Municipio": "Lantarón",
+    "Provincia": "ARABA/ÁLAVA",
+    "CCAA": "País Vasco"
+  },
+  {
+    "IDMunicipio": "29",
+    "IDProvincia": "01",
+    "IDCCAA": "16",
+    "Municipio": "Lapuebla de Labarca",
+    "Provincia": "ARABA/ÁLAVA",
+    "CCAA": "País Vasco"
+  },
+  {
+    "IDMunicipio": "30",
+    "IDProvincia": "01",
+    "IDCCAA": "16",
+    "Municipio": "Llodio",
+    "Provincia": "ARABA/ÁLAVA",
+    "CCAA": "País Vasco"
+  },
+  {
+    "IDMunicipio": "31",
+    "IDProvincia": "01",
+    "IDCCAA": "16",
+    "Municipio": "Legutiano",
+    "Provincia": "ARABA/ÁLAVA",
+    "CCAA": "País Vasco"
+  },
+  {
+    "IDMunicipio": "32",
+    "IDProvincia": "01",
+    "IDCCAA": "16",
+    "Municipio": "Leza",
+    "Provincia": "ARABA/ÁLAVA",
+    "CCAA": "País Vasco"
+  },
+  {
+    "IDMunicipio": "33",
+    "IDProvincia": "01",
+    "IDCCAA": "16",
+    "Municipio": "Moreda de Álava",
+    "Provincia": "ARABA/ÁLAVA",
+    "CCAA": "País Vasco"
+  },
+  {
+    "IDMunicipio": "34",
+    "IDProvincia": "01",
+    "IDCCAA": "16",
+    "Municipio": "Navaridas",
+    "Provincia": "ARABA/ÁLAVA",
+    "CCAA": "País Vasco"
+  },
+  {
+    "IDMunicipio": "35",
+    "IDProvincia": "01",
+    "IDCCAA": "16",
+    "Municipio": "Okondo",
+    "Provincia": "ARABA/ÁLAVA",
+    "CCAA": "País Vasco"
+  },
+  {
+    "IDMunicipio": "36",
+    "IDProvincia": "01",
+    "IDCCAA": "16",
+    "Municipio": "Oyón/Oion",
+    "Provincia": "ARABA/ÁLAVA",
+    "CCAA": "País Vasco"
+  },
+  {
+    "IDMunicipio": "37",
+    "IDProvincia": "01",
+    "IDCCAA": "16",
+    "Municipio": "Peñacerrada-Urizaharra",
+    "Provincia": "ARABA/ÁLAVA",
+    "CCAA": "País Vasco"
+  },
+  {
+    "IDMunicipio": "38",
+    "IDProvincia": "01",
+    "IDCCAA": "16",
+    "Municipio": "Ribera Alta",
+    "Provincia": "ARABA/ÁLAVA",
+    "CCAA": "País Vasco"
+  },
+  {
+    "IDMunicipio": "39",
+    "IDProvincia": "01",
+    "IDCCAA": "16",
+    "Municipio": "Ribera Baja/Erribera Beitia",
+    "Provincia": "ARABA/ÁLAVA",
+    "CCAA": "País Vasco"
+  },
+  {
+    "IDMunicipio": "40",
+    "IDProvincia": "01",
+    "IDCCAA": "16",
+    "Municipio": "Salvatierra/Agurain",
+    "Provincia": "ARABA/ÁLAVA",
+    "CCAA": "País Vasco"
+  },
+  {
+    "IDMunicipio": "41",
+    "IDProvincia": "01",
+    "IDCCAA": "16",
+    "Municipio": "Samaniego",
+    "Provincia": "ARABA/ÁLAVA",
+    "CCAA": "País Vasco"
+  },
+  {
+    "IDMunicipio": "42",
+    "IDProvincia": "01",
+    "IDCCAA": "16",
+    "Municipio": "San Millán/Donemiliaga",
+    "Provincia": "ARABA/ÁLAVA",
+    "CCAA": "País Vasco"
+  },
+  {
+    "IDMunicipio": "43",
+    "IDProvincia": "01",
+    "IDCCAA": "16",
+    "Municipio": "Urkabustaiz",
+    "Provincia": "ARABA/ÁLAVA",
+    "CCAA": "País Vasco"
+  },
+  {
+    "IDMunicipio": "44",
+    "IDProvincia": "01",
+    "IDCCAA": "16",
+    "Municipio": "Valdegovía",
+    "Provincia": "ARABA/ÁLAVA",
+    "CCAA": "País Vasco"
+  },
+  {
+    "IDMunicipio": "45",
+    "IDProvincia": "01",
+    "IDCCAA": "16",
+    "Municipio": "Villabuena de Álava/Eskuernaga",
+    "Provincia": "ARABA/ÁLAVA",
+    "CCAA": "País Vasco"
+  },
+  {
+    "IDMunicipio": "46",
+    "IDProvincia": "01",
+    "IDCCAA": "16",
+    "Municipio": "Vitoria-Gasteiz",
+    "Provincia": "ARABA/ÁLAVA",
+    "CCAA": "País Vasco"
+  },
+  {
+    "IDMunicipio": "47",
+    "IDProvincia": "01",
+    "IDCCAA": "16",
+    "Municipio": "Yécora/Iekora",
+    "Provincia": "ARABA/ÁLAVA",
+    "CCAA": "País Vasco"
+  },
+  {
+    "IDMunicipio": "48",
+    "IDProvincia": "01",
+    "IDCCAA": "16",
+    "Municipio": "Zalduondo",
+    "Provincia": "ARABA/ÁLAVA",
+    "CCAA": "País Vasco"
+  },
+  {
+    "IDMunicipio": "49",
+    "IDProvincia": "01",
+    "IDCCAA": "16",
+    "Municipio": "Zambrana",
+    "Provincia": "ARABA/ÁLAVA",
+    "CCAA": "País Vasco"
+  },
+  {
+    "IDMunicipio": "50",
+    "IDProvincia": "01",
+    "IDCCAA": "16",
+    "Municipio": "Zigoitia",
+    "Provincia": "ARABA/ÁLAVA",
+    "CCAA": "País Vasco"
+  },
+  {
+    "IDMunicipio": "51",
+    "IDProvincia": "01",
+    "IDCCAA": "16",
+    "Municipio": "Zuia",
+    "Provincia": "ARABA/ÁLAVA",
+    "CCAA": "País Vasco"
+  }
+]
