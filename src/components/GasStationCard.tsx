@@ -38,11 +38,11 @@ export default function GasStationCard(gasStation: any) {
         <img className="GasStationLogo" src={getLogo(gasStation.Rótulo)}></img>
       <div className="GasStationInfo">
         <div className="CardFirstRow">
-          <p className="GasStationLabel">{gasStation.Rótulo} </p>
+          <p className="GasStationLabel">{gasStation.Rótulo.replace(/(.{7})..+/, "$1 ...")} </p>
           <p className="GasStationFuelPrice"> <b>Precio:</b> {gasStation.PrecioProducto} </p>
         </div>
         <div className="CardSecondRow">
-          <p className="GasStationAddress"> <b>Direccion:</b> {gasStation.Dirección}</p>
+          <p className="GasStationAddress"> <b>Direccion:</b> {gasStation.Dirección.replace(/(.{20})..+/, "$1 ...")}</p>
         </div>
         <div className="CardThirdRow">
           <a href={direction} className="GasStationButton">
